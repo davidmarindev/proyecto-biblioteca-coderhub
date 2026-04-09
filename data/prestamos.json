@@ -1,0 +1,8 @@
+[
+  {
+    "codigo_libro": "001",
+    "usuario_id": "12345678",
+    "fecha_prestamo": "08 de abril",
+    "fecha_devolucion": null
+  }
+]

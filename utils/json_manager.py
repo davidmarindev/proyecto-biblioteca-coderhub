@@ -1,7 +1,8 @@
 import json
 
 BOOKS_FILE = "data/catalogo.json"
-USERS_FILE = "usuarios.json"
+USERS_FILE = "data/usuarios.json"
+LOANS_FILE = "data/prestamos.json"
 
 class JsonManager:
   def __init__(self, entity):
@@ -13,6 +14,8 @@ class JsonManager:
       return BOOKS_FILE
     elif self.entity == "usuario":
       return USERS_FILE
+    elif self.entity == "prestamo":
+      return LOANS_FILE
     else:
       raise ValueError("Entity not found")
 
@@ -21,5 +24,8 @@ class JsonManager:
       return json.load(file)
 
   def write_json(self, data):
+    current_data = self.read_json()
+    current_data.append(data)
+
     with open(self.file_path, "w") as file:
-      json.dump(data, file, indent=2)
+      json.dump(current_data, file, indent=2)

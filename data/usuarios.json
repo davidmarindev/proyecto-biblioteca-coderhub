@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "nombre": "David",
+    "apellido": "Marin",
+    "cedula": "12345678",
+    "correo": "prueba@test.com",
+    "telefono": "1234567890"
+  },
+  {
+    "nombre": "prueba",
+    "apellido": "prueba",
+    "cedula": "12345678",
+    "correo": "[EMAIL_ADDRESS]",
+    "telefono": "1234567890"
+  }
+]
