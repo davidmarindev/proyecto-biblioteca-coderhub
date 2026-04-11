@@ -1,8 +1,32 @@
 [
   {
+    "id": "2026-04-11_12345678_001",
     "codigo_libro": "001",
-    "usuario_id": "12345678",
-    "fecha_prestamo": "08 de abril",
-    "fecha_devolucion": null
+    "usuario_cedula": "12345678",
+    "tipo_usuario": "estudiante",
+    "fecha_prestamo": "2026-04-01",
+    "fecha_limite": "2026-04-08",
+    "fecha_devolucion": "2026-04-11",
+    "estado": "devuelto"
+  },
+  {
+    "id": "2026-04-11_87654321_786-0307474728",
+    "codigo_libro": "786-0307474728",
+    "usuario_cedula": "87654321",
+    "tipo_usuario": "profesor",
+    "fecha_prestamo": "2026-04-11",
+    "fecha_limite": "2026-05-11",
+    "fecha_devolucion": null,
+    "estado": "activo"
+  },
+  {
+    "id": "2026-04-11_23456789_001",
+    "codigo_libro": "001",
+    "usuario_cedula": "23456789",
+    "tipo_usuario": "estudiante",
+    "fecha_prestamo": "2026-04-01",
+    "fecha_limite": "2026-04-08",
+    "fecha_devolucion": "2026-04-11",
+    "estado": "devuelto"
   }
 ]

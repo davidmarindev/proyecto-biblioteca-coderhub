@@ -1,16 +1,43 @@
 [
   {
-    "nombre": "David",
-    "apellido": "Marin",
+    "nombre": "Pedro",
+    "apellido": "Perez",
     "cedula": "12345678",
-    "correo": "prueba@test.com",
-    "telefono": "1234567890"
+    "correo": "pedro.perez@test.com",
+    "telefono": "04121234567",
+    "tipo": "estudiante",
+    "bloqueado": true,
+    "bloqueado_hasta": "2026-05-11",
+    "historial_prestamos": [],
+    "carnet": "12345678",
+    "grado": "5",
+    "seccion": "a"
   },
   {
-    "nombre": "prueba",
-    "apellido": "prueba",
-    "cedula": "12345678",
-    "correo": "[EMAIL_ADDRESS]",
-    "telefono": "1234567890"
+    "nombre": "Jonh",
+    "apellido": "Doe",
+    "cedula": "87654321",
+    "correo": "jj_test@test.com",
+    "telefono": "04143215678",
+    "tipo": "profesor",
+    "bloqueado": false,
+    "bloqueado_hasta": null,
+    "historial_prestamos": [],
+    "materia": "Programacion",
+    "departamento": "Basico"
+  },
+  {
+    "nombre": "Prueba estudiante",
+    "apellido": "Test",
+    "cedula": "23456789",
+    "correo": "prueba@test.com",
+    "telefono": "04123456789",
+    "tipo": "estudiante",
+    "bloqueado": true,
+    "bloqueado_hasta": "2026-05-11",
+    "historial_prestamos": [],
+    "carnet": "23456789",
+    "grado": "6",
+    "seccion": "a"
   }
 ]

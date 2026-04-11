@@ -1,7 +1,7 @@
 [
   {
     "autor": "Gabriel Garcia Marquez",
-    "titulo": "Cien a\u00f1os de soledad",
+    "titulo": "Cien años de soledad",
     "categoria": "Novela",
     "anio": "1967",
     "codigo_isbn": "978-0307474728",
@@ -11,10 +11,10 @@
   },
   {
     "autor": "Romulo Gallegos",
-    "titulo": "Do\u00f1a Barbara",
+    "titulo": "Doña Barbara",
     "categoria": "Novela",
     "anio": "1929",
-    "codigo_isbn": "978-0307474728",
+    "codigo_isbn": "900-0307474728",
     "editorial": "Sudamericana",
     "nivel": "Secundaria",
     "disponible": true
@@ -24,10 +24,10 @@
     "titulo": "Don Quijote de la Mancha",
     "categoria": "Novela",
     "anio": "1605",
-    "codigo_isbn": "978-0307474728",
+    "codigo_isbn": "786-0307474728",
     "editorial": "Sudamericana",
     "nivel": "Primaria",
-    "disponible": true
+    "disponible": false
   },
   {
     "autor": "prueba",
